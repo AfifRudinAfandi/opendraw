@@ -6,16 +6,13 @@
     padding-top: 4vh;
     padding-bottom: 8vh;
   }
-  .head-title {
-    margin-bottom: 20vh;
-  }
   .wrapper-body {
     padding-left: 24px;
   }
   .wrapper-body .title-body {
     font-size: 62px;
     line-height: 62px;
-    margin-bottom: 8vh;
+    margin-bottom: 28vh;
   }
   .wrapper-body .title-email {
     margin-bottom: 4vh;
@@ -35,10 +32,10 @@
   .image-banner {
     position: absolute;
     right: 0;
-    top: 2vh;
+    top: 34vh;
     z-index: -10;
     width: auto;
-    height: 32vh;
+    height: 30vh;
   }
 }
 
