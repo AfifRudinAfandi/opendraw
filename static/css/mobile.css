@@ -1,5 +1,6 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 767px) {
+  /* <<<<------COMING SOON----->>>>>> */
   .coming-soon {
     height: auto;
     min-height: 100vh;
@@ -46,6 +47,7 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
+  /* <<<<------COMING SOON----->>>>>> */
   .coming-soon {
     height: auto;
     min-height: calc(100vh - 77px);
@@ -96,4 +98,10 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .wrapper-navbar {
+    max-width: 1200px;
+  }
+  .container {
+    max-width: 1200px;
+  }
 }
