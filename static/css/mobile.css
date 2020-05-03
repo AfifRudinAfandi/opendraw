@@ -4,7 +4,7 @@
     height: auto;
     min-height: 100vh;
     padding-top: 4vh;
-    padding-bottom: 4vh;
+    padding-bottom: 8vh;
   }
   .head-title {
     margin-bottom: 5vh;
@@ -46,6 +46,48 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
+  .coming-soon {
+    height: auto;
+    min-height: 100vh;
+    padding-top: 4vh;
+    padding-bottom: 8vh;
+  }
+  .head-title {
+    margin-bottom: 6vh;
+  }
+  .wrapper-body {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+  }
+  .wrapper-body .title-body {
+    font-size: 72px;
+    max-width: 324px;
+    margin-bottom: 22vh;
+  }
+
+  .wrapper-body .title-email {
+    margin-bottom: 4vh;
+  }
+  .group-input-email {
+    box-shadow: 0 20px 50px 0 rgba(68, 68, 68, 0.26);
+    margin-bottom: 12vh;
+    max-width: 400px;
+  }
+  .group-input-email input {
+    height: 72px;
+    padding-left: 22px;
+  }
+  .group-input-email .input-group-append button {
+    padding: 0 12px;
+    font-size: 14px;
+  }
+  .image-banner {
+    position: absolute;
+    right: 0;
+    top: 17vh;
+    z-index: -10;
+    width: 60%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
