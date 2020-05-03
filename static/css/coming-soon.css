@@ -1,0 +1,85 @@
+.coming-soon {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.head-title {
+  color: #0086ff;
+  font-size: 24px;
+  margin-bottom: 8vh;
+}
+.wrapper-body {
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  padding-left: 100px;
+  border-left: 2px solid #0086ff;
+}
+.wrapper-body .title-body {
+  color: #000000;
+  font-size: 94px;
+  font-weight: bold;
+  letter-spacing: 2.43px;
+  line-height: 72px;
+  margin-bottom: 10vh;
+}
+.wrapper-body .title-email {
+  color: #666666;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  margin-bottom: 6vh;
+}
+.group-input-email {
+  max-width: 560px;
+  box-shadow: 0 20px 50px 0 rgba(68, 68, 68, 0.26);
+  margin-bottom: 16vh;
+}
+.group-input-email input {
+  height: 82px;
+  padding-left: 44px;
+  border: none;
+  color: #ffffff;
+}
+.group-input-email input::placeholder {
+  color: #666666;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+}
+.group-input-email input:focus {
+  box-shadow: none;
+}
+.group-input-email .input-group-append {
+  margin: 10px 15px;
+}
+.group-input-email .input-group-append button {
+  border-radius: 0;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  text-align: center;
+  padding: 20px 40px;
+}
+.group-input-email .notice {
+  height: 30px;
+  width: 312px;
+  color: #666666;
+  font-family: Poppins;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
+.image-banner {
+  position: absolute;
+  right: 0;
+  top: 16vh;
+  z-index: -10;
+  width: 50%;
+}
