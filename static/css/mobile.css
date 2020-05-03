@@ -1,0 +1,54 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 767px) {
+  .coming-soon {
+    height: auto;
+    min-height: 100vh;
+    padding-top: 4vh;
+    padding-bottom: 8vh;
+  }
+  .head-title {
+    margin-bottom: 20vh;
+  }
+  .wrapper-body {
+    padding-left: 24px;
+  }
+  .wrapper-body .title-body {
+    font-size: 62px;
+    line-height: 62px;
+    margin-bottom: 8vh;
+  }
+  .wrapper-body .title-email {
+    margin-bottom: 4vh;
+  }
+  .group-input-email {
+    box-shadow: 0 20px 50px 0 rgba(68, 68, 68, 0.26);
+    margin-bottom: 12vh;
+  }
+  .group-input-email input {
+    height: 78px;
+    padding-left: 22px;
+  }
+  .group-input-email .input-group-append button {
+    padding: 0 18px;
+  }
+  .image-banner {
+    position: absolute;
+    right: 0;
+    top: 2vh;
+    z-index: -10;
+    width: auto;
+    height: 32vh;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1024px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
