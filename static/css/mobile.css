@@ -50,7 +50,7 @@
     height: auto;
     min-height: calc(100vh - 77px);
     padding-top: 4vh;
-    padding-bottom: 8vh;
+    padding-bottom: 14vh;
   }
   .head-title {
     margin-bottom: 6vh;
@@ -70,7 +70,7 @@
   }
   .group-input-email {
     box-shadow: 0 20px 50px 0 rgba(68, 68, 68, 0.26);
-    margin-bottom: 12vh;
+    margin-bottom: 18vh;
     max-width: 540px;
   }
   .group-input-email input {
