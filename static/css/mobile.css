@@ -4,7 +4,10 @@
     height: auto;
     min-height: 100vh;
     padding-top: 4vh;
-    padding-bottom: 8vh;
+    padding-bottom: 4vh;
+  }
+  .head-title {
+    margin-bottom: 5vh;
   }
   .wrapper-body {
     padding-left: 24px;
@@ -34,7 +37,7 @@
   .image-banner {
     position: absolute;
     right: 0;
-    top: 34vh;
+    top: 30vh;
     z-index: -10;
     width: auto;
     height: 34vh;
