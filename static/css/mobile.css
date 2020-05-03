@@ -48,6 +48,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .coming-soon {
     height: auto;
+    min-height: calc(100vh - 77px);
     padding-top: 4vh;
     padding-bottom: 8vh;
   }
