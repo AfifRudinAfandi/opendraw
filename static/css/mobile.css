@@ -8,11 +8,13 @@
   }
   .wrapper-body {
     padding-left: 24px;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
   }
   .wrapper-body .title-body {
-    font-size: 62px;
-    line-height: 62px;
-    margin-bottom: 28vh;
+    font-size: 52px;
+    line-height: 58px;
+    margin-bottom: 34vh;
   }
   .wrapper-body .title-email {
     margin-bottom: 4vh;
@@ -26,16 +28,16 @@
     padding-left: 22px;
   }
   .group-input-email .input-group-append button {
-    padding: 0 18px;
+    padding: 0 12px;
     font-size: 14px;
   }
   .image-banner {
     position: absolute;
     right: 0;
-    top: 34vh;
+    top: 28vh;
     z-index: -10;
     width: auto;
-    height: 30vh;
+    height: 34vh;
   }
 }
 
