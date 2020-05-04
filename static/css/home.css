@@ -112,7 +112,7 @@ section.recent {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 .recent-title {
   color: #000000;
@@ -446,4 +446,9 @@ footer .copy-right {
   letter-spacing: 0.5px;
   line-height: 30px;
   margin-bottom: 0;
+}
+.row-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

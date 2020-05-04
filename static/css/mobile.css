@@ -1,5 +1,19 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 767px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  .open-draws-nav .navbar-nav {
+    align-items: flex-start;
+  }
+  .btn-navbar {
+    padding: 0.5rem 1rem;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: rgb(230, 243, 255);
+    border-radius: 0;
+    padding: 2px 8px;
+  }
   /* <<<<------COMING SOON----->>>>>> */
   .coming-soon {
     height: auto;
@@ -36,12 +50,128 @@
     font-size: 14px;
   }
   .image-banner {
-    position: absolute;
     right: 0;
     top: 30vh;
-    z-index: -10;
     width: auto;
     height: 34vh;
+  }
+
+  /* <<<<------HOME----->>>>>> */
+  .hero.hero-home {
+    height: auto;
+    margin-bottom: 100px;
+    padding-top: 38px;
+  }
+  .wrapper-body .hero-main-title {
+    max-width: 280px;
+    font-size: 34px;
+    line-height: 42px;
+    margin-bottom: 22vh;
+  }
+  .hero-home-img {
+    top: 28vh;
+    width: 56%;
+  }
+  .ct-recent-top {
+    margin-left: 15px;
+    width: calc(100% - 15px);
+  }
+  .text-category {
+    margin-bottom: 12px;
+  }
+  .recent-title {
+    font-size: 28px;
+    line-height: 32px;
+    max-width: 200px;
+  }
+  .link-all-category {
+    max-width: 76px;
+  }
+  .img-floating-connect {
+    top: -160px;
+    width: 240px;
+    left: calc(50% - 120px);
+  }
+  .wrapper-freeforall {
+    padding-left: 15px;
+    margin-bottom: 48px;
+  }
+  .text-free {
+    margin-bottom: 12px;
+  }
+  .text-useful {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .slide-home {
+    margin-bottom: 40px;
+  }
+  .information-is-free {
+    margin-bottom: 36px;
+  }
+  .wrapper-information-free {
+    padding-left: 15px;
+  }
+  .connect-us {
+    width: 100%;
+    padding-top: 180px;
+    background-size: 180%;
+  }
+  .wrapper-footer {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper-footer .mr-4:nth-last-child(2) {
+    margin-right: 0 !important;
+  }
+  .wrapper-connect-title {
+    padding-left: 15px;
+  }
+  .text-lt {
+    margin-bottom: 12px;
+  }
+  .text-cwu {
+    font-size: 42px;
+    line-height: 42px;
+    max-width: 200px;
+  }
+  section.download {
+    margin-bottom: 240px;
+  }
+  .wrapper-connect {
+    padding-left: 15px;
+  }
+  .group-input-connect .input-group-append {
+    margin-left: 15px;
+  }
+  .group-input-connect .input-group-append button {
+    padding: 20px 12px;
+  }
+  .donate-float-img {
+    position: absolute;
+    right: 0;
+    top: -54px;
+    width: 180px;
+  }
+  section.donate {
+    padding-top: 148px;
+    padding-bottom: 64px;
+  }
+  .footer-text {
+    margin-bottom: 20px;
+  }
+  .footer-title {
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 40px;
+    max-width: 280px;
+  }
+  .btn-mail {
+    margin-bottom: 28px;
+  }
+  .btn-donate {
+    margin-bottom: 28px;
   }
 }
 
