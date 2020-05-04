@@ -177,6 +177,20 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  .open-draws-nav .navbar-nav {
+    align-items: flex-start;
+  }
+  .btn-navbar {
+    padding: 0.5rem 1rem;
+  }
+  .navbar-light .navbar-toggler {
+    border-color: rgb(230, 243, 255);
+    border-radius: 0;
+    padding: 2px 8px;
+  }
   /* <<<<------COMING SOON----->>>>>> */
   .coming-soon {
     height: auto;
@@ -219,6 +233,22 @@
     top: 17vh;
     z-index: -10;
     width: 60%;
+  }
+  /* <<<<------HOME----->>>>>> */
+  .hero.hero-home {
+    height: auto;
+    margin-bottom: 100px;
+    padding-top: 38px;
+  }
+  .wrapper-body .hero-main-title {
+    max-width: 390px;
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 22vh;
+  }
+  .hero-home-img {
+    top: 15vh;
+    width: 46%;
   }
 }
 
