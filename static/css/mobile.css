@@ -1,10 +1,10 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 767px) {
+  .open-draws-nav .navbar-nav .nav-item {
+    margin-right: 0;
+  }
   .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0.5rem 1rem;
-  }
-  .open-draws-nav .navbar-nav {
-    align-items: flex-start;
   }
   .btn-navbar {
     padding: 0.5rem 1rem;
@@ -176,11 +176,11 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px) {
+  .open-draws-nav .navbar-nav .nav-item {
+    margin-right: 0;
+  }
   .navbar-expand-lg .navbar-nav .nav-link {
     padding: 0.5rem 1rem;
-  }
-  .open-draws-nav .navbar-nav {
-    align-items: flex-start;
   }
   .btn-navbar {
     padding: 0.5rem 1rem;
