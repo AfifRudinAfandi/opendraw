@@ -96,6 +96,17 @@
 section.recent {
   margin-bottom: 170px;
 }
+.wrapper-title-section {
+  border-left: 2px solid #0086ff;
+  padding-left: 28px;
+}
+.parent-wrapp {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 60px;
+}
 .ct-recent-top {
   border-left: 2px solid #0086ff;
   margin-bottom: 60px;
@@ -107,12 +118,6 @@ section.recent {
   letter-spacing: 0.5px;
   line-height: 20px;
   margin-bottom: 0;
-}
-.wrapper-jtf {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
 }
 .recent-title {
   color: #000000;

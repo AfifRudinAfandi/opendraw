@@ -72,9 +72,8 @@
     top: 28vh;
     width: 56%;
   }
-  .ct-recent-top {
-    margin-left: 15px;
-    width: calc(100% - 15px);
+  .wrapper-title-section {
+    padding-left: 15px;
   }
   .text-category {
     margin-bottom: 12px;
@@ -241,14 +240,48 @@
     padding-top: 38px;
   }
   .wrapper-body .hero-main-title {
-    max-width: 390px;
-    font-size: 48px;
-    line-height: 58px;
+    max-width: 470px;
+    font-size: 60px;
+    line-height: 68px;
     margin-bottom: 22vh;
   }
   .hero-home-img {
     top: 15vh;
     width: 46%;
+  }
+  .recent-title {
+    font-size: 46px;
+    line-height: 50px;
+  }
+  .recent .container .row .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .download .container .row .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .connect-us {
+    /* width: 100%; */
+  }
+  .img-floating-connect {
+    top: 14px;
+    width: 300px;
+    left: 1%;
+  }
+  .text-cwu {
+    font-size: 38px;
+  }
+  .footer-title {
+    max-width: 420px;
+    font-size: 52px;
+  }
+  .wrapper-footer {
+    flex-wrap: wrap;
+  }
+  .text-friends {
+    min-width: 100%;
+    margin-top: 28px;
   }
 }
 
