@@ -262,7 +262,8 @@
     max-width: 50%;
   }
   .connect-us {
-    /* width: 100%; */
+    width: 100%;
+    padding-right: 10%;
   }
   .img-floating-connect {
     top: 14px;
@@ -282,6 +283,16 @@
   .text-friends {
     min-width: 100%;
     margin-top: 28px;
+  }
+  .text-useful {
+    font-size: 36px;
+    line-height: 62px;
+  }
+  .wrapper-freeforall {
+    margin-bottom: 48px;
+  }
+  .information-is-free {
+    margin-bottom: 36px;
   }
 }
 
