@@ -199,6 +199,9 @@ section.lisence {
 .lisence .container .row {
   align-items: center;
 }
+.slide-home img {
+  width: 100%;
+}
 .wrapper-freeforall {
   border-left: 2px solid #0086ff;
   padding-left: 28px;
