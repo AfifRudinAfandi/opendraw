@@ -294,10 +294,13 @@
   .information-is-free {
     margin-bottom: 36px;
   }
+  .donate-float-img {
+    width: 42%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1024px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   .hero.hero-home {
     height: auto;
     margin-bottom: 100px;
