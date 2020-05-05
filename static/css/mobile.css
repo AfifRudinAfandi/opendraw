@@ -483,6 +483,10 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
+
+  .group-input-email {
+    margin-bottom: 8vh;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
