@@ -19,6 +19,6 @@ $(document).ready(function () {
     next.fadeIn("slow").addClass("show");
 
     //*** Repeat function every 3 seconds ***//
-    setTimeout(slideShow, 4000);
+    setTimeout(slideShow, 3000);
   }
 }); //end ready

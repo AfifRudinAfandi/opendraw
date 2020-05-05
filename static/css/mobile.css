@@ -72,6 +72,10 @@
     top: 28vh;
     width: 56%;
   }
+
+  .group-input-email input::placeholder {
+    font-size: 12px;
+  }
   .wrapper-title-section {
     padding-left: 15px;
   }
@@ -258,6 +262,19 @@
     font-size: 22px;
     line-height: 32px;
   }
+
+  /* <<<<------ALL CATEGORY----->>>>>> */
+  .hero.hero-category {
+    height: auto;
+    margin-bottom: 100px;
+    padding-top: 38px;
+  }
+  .hero-category-img {
+    top: 20vh;
+    width: 40%;
+    right: auto;
+    left: 25%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -428,6 +445,23 @@
     width: 46%;
     transform: unset;
   }
+  /* <<<<------ALL CATEGORY----->>>>>> */
+  .hero.hero-category {
+    height: auto;
+    margin-bottom: 100px;
+    padding-top: 38px;
+  }
+  .hero-category-img {
+    right: auto;
+    top: 18vh;
+    left: 30%;
+    z-index: -10;
+    width: 28%;
+  }
+  .category .container .row .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -529,6 +563,23 @@
     top: 15vh;
     width: 46%;
     transform: unset;
+  }
+  /* <<<<------ALL CATEGORY----->>>>>> */
+  .hero.hero-category {
+    height: auto;
+    margin-bottom: 100px;
+    padding-top: 38px;
+  }
+  .hero-category-img {
+    right: auto;
+    top: 16vh;
+    left: 20%;
+    z-index: -10;
+    width: 28%;
+  }
+  .category .container .row .col-md-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
   }
 }
 
