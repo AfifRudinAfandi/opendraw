@@ -275,6 +275,13 @@
     right: auto;
     left: 25%;
   }
+
+  .hero-main-title.category-main {
+    margin-bottom: 26vh !important;
+  }
+  .hero-category-img-2 {
+    top: 29vh;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -462,6 +469,10 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
+
+  .hero-category-img-2 {
+    top: 22vh;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -580,6 +591,9 @@
   .category .container .row .col-md-3 {
     flex: 0 0 50%;
     max-width: 50%;
+  }
+  .hero-category-img-2 {
+    top: 22vh;
   }
 }
 
