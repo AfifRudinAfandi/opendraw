@@ -346,6 +346,33 @@
   .donate-float-img {
     width: 42%;
   }
+  /* <<<<------ABOUT----->>>>>> */
+  .hero.hero-about {
+    height: auto;
+    margin-bottom: 100px;
+    padding-top: 38px;
+  }
+  .wrapper-hero .hero-title {
+    margin-bottom: 280px;
+  }
+  .img-hero-about {
+    top: 30%;
+    transform: unset;
+    right: auto;
+    left: 30%;
+    width: 30%;
+  }
+
+  .our-team .container .row:nth-child(odd) .our-right {
+    padding-left: 15px;
+  }
+  .wrapp-ourteam .our-name {
+    font-size: 48px;
+    line-height: 52px;
+  }
+  .aboutc-us {
+    margin-bottom: 0;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -409,6 +436,29 @@
   }
   .information-is-free {
     margin-bottom: 36px;
+  }
+
+  /* <<<<------ABOUT----->>>>>> */
+  .hero.hero-about {
+    height: auto;
+    margin-bottom: 100px;
+    padding-top: 38px;
+  }
+  .wrapper-hero .hero-title {
+  }
+  .img-hero-about {
+    width: 30%;
+  }
+
+  .our-team .container .row:nth-child(odd) .our-right {
+    padding-left: 60px;
+  }
+  .wrapp-ourteam .our-name {
+    font-size: 48px;
+    line-height: 52px;
+  }
+  .aboutc-us {
+    margin-bottom: 0;
   }
 }
 
