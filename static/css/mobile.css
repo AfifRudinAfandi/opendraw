@@ -172,6 +172,55 @@
   .btn-donate {
     margin-bottom: 28px;
   }
+
+  /* <<<<------ABOUT----->>>>>> */
+  .hero.hero-about {
+    height: auto;
+    margin-bottom: 100px;
+    padding-top: 38px;
+  }
+  .wrapper-hero {
+    padding-left: 24px;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+  }
+  .wrapper-hero .hero-title {
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 280px;
+  }
+  .img-hero-about {
+    top: 24%;
+    transform: unset;
+    right: auto;
+    left: 20%;
+    width: 60%;
+  }
+  .our-team .container .row:nth-child(odd) .our-right {
+    padding-left: 15px;
+  }
+  .img-ourteam {
+    margin-bottom: 38px;
+  }
+  .wrapp-ourteam {
+    padding-left: 15px;
+  }
+  .wrapp-ourteam .our-name {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .row-ourteam {
+    margin-bottom: 80px;
+  }
+  section.our-team {
+    margin-bottom: 280px;
+  }
+  .our-social-link {
+    margin-right: 20px;
+  }
+  .aboutc-us {
+    margin-bottom: 0;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
