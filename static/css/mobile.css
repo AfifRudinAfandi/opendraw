@@ -221,6 +221,43 @@
   .aboutc-us {
     margin-bottom: 0;
   }
+  /* <<<<------LICENSE----->>>>>> */
+  .hero.hero-license {
+    height: auto;
+    margin-bottom: 100px;
+    padding-top: 38px;
+  }
+  .wrapper-hero.wrapper-license {
+    padding-left: 24px;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+  }
+  .wrapper-hero.wrapper-license .hero-title {
+    font-size: 38px;
+    line-height: 52px;
+    max-width: 100%;
+    margin-bottom: 240px;
+  }
+  .img-hero-license {
+    top: 26%;
+    transform: unset;
+    right: 6%;
+    width: 70%;
+  }
+  .wrapp-license {
+    padding-left: 15px;
+  }
+  .wrapp-license .license-title-h4 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .wrapper-license-body {
+    padding-left: 15px;
+  }
+  .wrapper-license-body .title-license {
+    font-size: 22px;
+    line-height: 32px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
