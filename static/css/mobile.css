@@ -453,10 +453,10 @@
   }
   .hero-category-img {
     right: auto;
-    top: 18vh;
+    top: 14vh;
     left: 30%;
     z-index: -10;
-    width: 28%;
+    width: 32%;
   }
   .category .container .row .col-md-3 {
     flex: 0 0 50%;
