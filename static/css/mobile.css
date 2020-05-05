@@ -66,11 +66,13 @@
     max-width: 280px;
     font-size: 34px;
     line-height: 42px;
-    margin-bottom: 22vh;
+    margin-bottom: 28px;
   }
   .hero-home-img {
-    top: 28vh;
-    width: 56%;
+    position: relative;
+    top: auto;
+    width: 100%;
+    right: auto;
   }
 
   .group-input-email input::placeholder {
@@ -191,14 +193,16 @@
   .wrapper-hero .hero-title {
     font-size: 42px;
     line-height: 52px;
-    margin-bottom: 280px;
+    margin-bottom: 28px;
   }
   .img-hero-about {
-    top: 24%;
+    top: auto;
     transform: unset;
     right: auto;
-    left: 20%;
-    width: 60%;
+    left: auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 28px;
   }
   .our-team .container .row:nth-child(odd) .our-right {
     padding-left: 15px;
@@ -240,13 +244,15 @@
     font-size: 38px;
     line-height: 52px;
     max-width: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 28px;
   }
   .img-hero-license {
-    top: 26%;
+    top: auto;
     transform: unset;
-    right: 6%;
-    width: 70%;
+    right: auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 28px;
   }
   .wrapp-license {
     padding-left: 15px;
@@ -270,19 +276,16 @@
     padding-top: 38px;
   }
   .hero-category-img {
-    top: 20vh;
-    width: 40%;
     right: auto;
-    left: 25%;
+    top: auto;
+    left: auto;
+    z-index: -10;
+    width: 100%;
+    margin-bottom: 28px;
+    position: relative;
   }
-
-  .hero-main-title.category-main {
-    margin-bottom: 38vh !important;
-  }
-  .hero-category-img-2 {
-    top: calc(4vh + 180px);
-    width: 60%;
-    left: 16%;
+  .hero-main-title {
+    margin-bottom: 28px;
   }
 }
 
@@ -355,11 +358,13 @@
     max-width: 470px;
     font-size: 60px;
     line-height: 68px;
-    margin-bottom: 22vh;
+    margin-bottom: 28px;
   }
   .hero-home-img {
-    top: 15vh;
-    width: 46%;
+    top: auto;
+    width: 80%;
+    position: relative;
+    margin-bottom: 28px;
   }
   .recent-title {
     font-size: 46px;
@@ -416,14 +421,16 @@
     padding-top: 38px;
   }
   .wrapper-hero .hero-title {
-    margin-bottom: 300px;
+    margin-bottom: 28px;
   }
   .img-hero-about {
-    top: 30%;
+    top: auto;
     transform: unset;
     right: auto;
-    left: 30%;
-    width: 30%;
+    left: auto;
+    width: 80%;
+    position: relative;
+    margin-bottom: 28px;
   }
 
   .our-team .container .row:nth-child(odd) .our-right {
@@ -447,12 +454,15 @@
     max-width: 470px;
     font-size: 60px;
     line-height: 68px;
-    margin-bottom: 22vh;
+    margin-bottom: 28px;
   }
   .img-hero-license {
-    top: 15vh;
-    width: 46%;
+    top: auto;
     transform: unset;
+    right: auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 28px;
   }
   /* <<<<------ALL CATEGORY----->>>>>> */
   .hero.hero-category {
@@ -462,23 +472,16 @@
   }
   .hero-category-img {
     right: auto;
-    top: 14vh;
-    left: 30%;
+    top: auto;
+    left: auto;
     z-index: -10;
-    width: 32%;
+    width: 80%;
+    position: relative;
+    margin-bottom: 28px;
   }
   .category .container .row .col-md-3 {
     flex: 0 0 50%;
     max-width: 50%;
-  }
-
-  .hero-category-img-2 {
-    top: calc(4vh + 250px);
-    left: 24%;
-    width: 44%;
-  }
-  .hero-main-title.category-main {
-    margin-bottom: 39vh;
   }
 }
 
@@ -493,11 +496,13 @@
     max-width: 470px;
     font-size: 60px;
     line-height: 68px;
-    margin-bottom: 22vh;
+    margin-bottom: 28px;
   }
   .hero-home-img {
-    top: 15vh;
-    width: 46%;
+    top: auto;
+    width: 80%;
+    position: relative;
+    margin-bottom: 28px;
   }
   .recent-title {
     font-size: 46px;
@@ -575,12 +580,15 @@
     max-width: 470px;
     font-size: 60px;
     line-height: 68px;
-    margin-bottom: 22vh;
+    margin-bottom: 28px;
   }
   .img-hero-license {
-    top: 15vh;
-    width: 46%;
+    top: auto;
+    width: 80%;
     transform: unset;
+    right: auto;
+    position: relative;
+    margin-bottom: 28px;
   }
   /* <<<<------ALL CATEGORY----->>>>>> */
   .hero.hero-category {
@@ -590,22 +598,19 @@
   }
   .hero-category-img {
     right: auto;
-    top: 16vh;
-    left: 20%;
+    top: auto;
+    left: auto;
     z-index: -10;
-    width: 28%;
+    width: 80%;
+    position: relative;
+    margin-bottom: 28px;
   }
   .category .container .row .col-md-3 {
     flex: 0 0 50%;
     max-width: 50%;
   }
-  .hero-category-img-2 {
-    top: calc(4vh + 270px);
-    left: 18%;
-    width: 40%;
-  }
-  .hero-main-title.category-main {
-    margin-bottom: 39vh;
+  .group-input-email {
+    margin-bottom: 8vh;
   }
 }
 
