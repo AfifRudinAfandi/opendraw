@@ -277,10 +277,12 @@
   }
 
   .hero-main-title.category-main {
-    margin-bottom: 26vh !important;
+    margin-bottom: 38vh !important;
   }
   .hero-category-img-2 {
     top: calc(4vh + 180px);
+    width: 60%;
+    left: 16%;
   }
 }
 
@@ -472,6 +474,11 @@
 
   .hero-category-img-2 {
     top: calc(4vh + 250px);
+    left: 24%;
+    width: 44%;
+  }
+  .hero-main-title.category-main {
+    margin-bottom: 39vh;
   }
 }
 
@@ -594,6 +601,11 @@
   }
   .hero-category-img-2 {
     top: calc(4vh + 270px);
+    left: 18%;
+    width: 40%;
+  }
+  .hero-main-title.category-main {
+    margin-bottom: 39vh;
   }
 }
 
