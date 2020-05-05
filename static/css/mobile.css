@@ -280,7 +280,7 @@
     margin-bottom: 26vh !important;
   }
   .hero-category-img-2 {
-    top: 29vh;
+    top: calc(4vh + 180px);
   }
 }
 
@@ -471,7 +471,7 @@
   }
 
   .hero-category-img-2 {
-    top: 22vh;
+    top: calc(4vh + 270px);
   }
 }
 
@@ -593,7 +593,7 @@
     max-width: 50%;
   }
   .hero-category-img-2 {
-    top: 22vh;
+    top: calc(4vh + 270px);
   }
 }
 
