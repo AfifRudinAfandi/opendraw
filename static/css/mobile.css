@@ -562,6 +562,11 @@
   .modal-donate-us {
     max-width: 80%;
   }
+
+  .category-premium .container .row .col-md-4 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
