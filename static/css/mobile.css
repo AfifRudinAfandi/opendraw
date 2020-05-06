@@ -326,6 +326,10 @@
     color: #001f3b;
     margin-bottom: 12px;
   }
+
+  section.category.category-premium {
+    padding-top: 24px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -746,5 +750,9 @@
   }
   .modal-donate-us {
     max-width: 1030px;
+  }
+
+  .rw-download-item .col-md-6:nth-last-child(1) {
+    padding-left: 80px;
   }
 }
