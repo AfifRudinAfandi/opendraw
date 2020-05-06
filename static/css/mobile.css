@@ -304,7 +304,7 @@
   }
   /* <<<<------MODAL----->>>>>> */
   .modal-body-donate {
-    padding: 15px 15px;
+    padding: 40px 16px;
   }
   .modal-title-donate {
     font-size: 22px;
@@ -316,8 +316,8 @@
     align-items: self-start;
   }
   .ic-modal {
-    width: 28%;
-    top: 21px;
+    width: 30%;
+    top: 46px;
   }
   .modal-donate {
     border: 2px solid #004a8e;
@@ -537,11 +537,11 @@
 
   /* <<<<------MODAL----->>>>>> */
   .modal-body-donate {
-    padding: 60px 40px;
+    padding: 78px 58px;
   }
   .modal-title-donate {
-    font-size: 30px;
-    line-height: 42px;
+    font-size: 34px;
+    line-height: 52px;
     margin-bottom: 32px;
   }
   .ic-modal {
@@ -560,7 +560,7 @@
   }
 
   .modal-donate-us {
-    max-width: 600px;
+    max-width: 80%;
   }
 }
 
