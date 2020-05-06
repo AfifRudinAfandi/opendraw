@@ -5,6 +5,7 @@
 }
 .rw-download-item {
   align-items: center;
+  margin-bottom: 38px;
 }
 .download-item-img {
   width: 100%;
@@ -47,8 +48,9 @@
   letter-spacing: 0.5px;
   line-height: 20px;
   border-radius: 0;
-  width: 470px;
+  width: 100%;
   height: 64px;
+  text-transform: uppercase;
   margin-bottom: 38px;
 }
 .tag-category {
@@ -59,7 +61,14 @@
   margin-top: 38px;
   margin-bottom: 0;
 }
-
+.back-btn {
+  color: #0086ff;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+.back-btn:hover {
+  text-decoration: none;
+}
 footer {
   height: 77px;
   background-color: #000000;
@@ -74,4 +83,78 @@ footer .copy-right {
   letter-spacing: 0.5px;
   line-height: 30px;
   margin-bottom: 0;
+}
+.modal-ct-donate {
+  background-color: transparent;
+  border-radius: 0;
+  border: none;
+}
+.header-modal-donate {
+  background-color: transparent;
+}
+.modal-body-donate {
+  background-color: #f9f9f9;
+  position: relative;
+  padding: 110px 100px;
+}
+.modal-title-donate {
+  color: #000000;
+  font-size: 52px;
+  font-weight: bold;
+  letter-spacing: 1.34px;
+  line-height: 72px;
+  margin-bottom: 50px;
+}
+.wrapper-donate-modal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.modal-donate {
+  border: 2px solid #004a8e;
+  border-radius: 0;
+  padding: 10px 20px;
+  color: #001f3b;
+}
+.modal-donate:hover {
+  background-color: #004a8e;
+  color: #ffffff;
+}
+.txt-modal-friends {
+  color: #666666;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+.txt-modal-friends a {
+  text-decoration: underline;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 30px;
+}
+.ic-modal {
+  position: absolute;
+  right: 0;
+  width: 34%;
+  top: 47px;
+}
+.modal-donate-us .modal-header .close {
+  padding: 0 0;
+  margin: -1rem auto -1rem -1rem;
+}
+.modal-donate-us .close:focus {
+  outline: none;
+}
+.modal-donate-us .close {
+  float: left;
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: #fff;
+  opacity: 1 !important;
+}
+.modal-donate-us .close:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }

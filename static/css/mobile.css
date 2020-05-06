@@ -298,6 +298,30 @@
   .category-name {
     line-height: 38px;
   }
+  /* <<<<------MODAL----->>>>>> */
+  .modal-body-donate {
+    padding: 15px 15px;
+  }
+  .modal-title-donate {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 26px;
+  }
+  .wrapper-donate-modal {
+    flex-direction: column;
+    align-items: self-start;
+  }
+  .ic-modal {
+    width: 28%;
+    top: 21px;
+  }
+  .modal-donate {
+    border: 2px solid #004a8e;
+    border-radius: 0;
+    padding: 10px 20px;
+    color: #001f3b;
+    margin-bottom: 12px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -506,6 +530,34 @@
   .download-item {
     min-height: calc(100vh - 133px);
   }
+
+  /* <<<<------MODAL----->>>>>> */
+  .modal-body-donate {
+    padding: 60px 40px;
+  }
+  .modal-title-donate {
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 32px;
+  }
+  .ic-modal {
+    width: 28%;
+    top: 40px;
+  }
+  .modal-donate {
+    border: 2px solid #004a8e;
+    border-radius: 0;
+    padding: 10px 20px;
+    color: #001f3b;
+  }
+  .txt-modal-friends {
+    line-height: 18px;
+    max-width: 250px;
+  }
+
+  .modal-donate-us {
+    max-width: 600px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -642,6 +694,34 @@
   .download-item {
     min-height: calc(100vh - 133px);
   }
+
+  /* <<<<------MODAL----->>>>>> */
+  .modal-body-donate {
+    padding: 80px 60px;
+  }
+  .modal-title-donate {
+    font-size: 42px;
+    line-height: 60px;
+    margin-bottom: 32px;
+  }
+  .ic-modal {
+    width: 28%;
+    top: 40px;
+  }
+  .modal-donate {
+    border: 2px solid #004a8e;
+    border-radius: 0;
+    padding: 10px 20px;
+    color: #001f3b;
+  }
+  .txt-modal-friends {
+    line-height: 18px;
+    max-width: 250px;
+  }
+
+  .modal-donate-us {
+    max-width: 800px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -651,5 +731,11 @@
   }
   .container {
     max-width: 1200px;
+  }
+  .btn-download-item {
+    width: 470px;
+  }
+  .modal-donate-us {
+    max-width: 1030px;
   }
 }
