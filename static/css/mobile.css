@@ -287,6 +287,17 @@
   .hero-main-title {
     margin-bottom: 28px;
   }
+
+  /* <<<<------ITEM DOWNLOAD----->>>>>> */
+  .download-item {
+    padding-top: 48px;
+  }
+  .download-item-img {
+    margin-bottom: 28px;
+  }
+  .category-name {
+    line-height: 38px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -487,6 +498,14 @@
   .group-input-email {
     margin-bottom: 8vh;
   }
+
+  /* <<<<------ITEM DOWNLOAD----->>>>>> */
+  .rw-download-item {
+    align-items: flex-start;
+  }
+  .download-item {
+    min-height: calc(100vh - 133px);
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -615,6 +634,13 @@
   }
   .group-input-email {
     margin-bottom: 8vh;
+  }
+  /* <<<<------ITEM DOWNLOAD----->>>>>> */
+  .rw-download-item {
+    align-items: flex-start;
+  }
+  .download-item {
+    min-height: calc(100vh - 133px);
   }
 }
 
