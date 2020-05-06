@@ -330,6 +330,73 @@
   section.category.category-premium {
     padding-top: 24px;
   }
+
+  /* <<<<------DONATE----->>>>>> */
+  .hero.hero-donate {
+    height: auto;
+    margin-bottom: 100px;
+    padding-top: 38px;
+  }
+  .wrapper-hero.wrapper-donate-hero .hero-title-donate {
+    font-size: 38px;
+    line-height: 52px;
+    margin-bottom: 28px;
+  }
+  .img-hero-donate {
+    position: relative;
+    top: auto;
+    width: 100%;
+    right: auto;
+    transform: unset;
+    margin-bottom: 38px;
+  }
+  .wrapp-hero-btn-donate {
+    flex-direction: column;
+    margin-bottom: 60px;
+  }
+  .wrapp-hero-btn-donate button {
+    margin-right: 0;
+    height: 62px;
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 28px;
+  }
+  .wrapper-qrcode {
+    padding-left: 15px;
+  }
+  .wrapper-qrcode .row .col-md-4:nth-child(1) {
+    margin-right: 0;
+  }
+  .img-qr {
+    width: 80%;
+    margin-bottom: 18px;
+  }
+  .donate-indonesian-title {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .text-indonesian {
+    margin-bottom: 12px;
+  }
+
+  /* <<<<------NOT FOUND----->>>>>> */
+  .hero.page-not-found {
+    height: auto;
+    margin-bottom: 16vh;
+    padding-top: 38px;
+  }
+  .image-banner-page-not-found {
+    position: relative;
+    top: auto;
+    width: 100%;
+    right: auto;
+    transform: unset;
+    margin-bottom: 10vh;
+  }
+  .wrapper-body .page-404 {
+    font-size: 100px;
+    margin-bottom: 0;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -571,6 +638,64 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
+
+  /* <<<<------DONATE----->>>>>> */
+  .hero.hero-donate {
+    height: auto;
+    margin-bottom: 100px;
+    padding-top: 38px;
+  }
+  .wrapper-hero.wrapper-donate-hero .hero-title-donate {
+    max-width: 470px;
+    line-height: 68px;
+    margin-bottom: 28px;
+  }
+  .img-hero-donate {
+    top: auto;
+    width: 80%;
+    position: relative;
+    margin-bottom: 38px;
+    transform: unset;
+  }
+  .wrapper-qrcode {
+    padding-left: 15px;
+  }
+  .wrapper-donate-hero {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+  }
+  .wrapper-qrcode .row .col-md-4:nth-child(1) {
+    margin-right: 40px;
+  }
+  .img-qr {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+  .donate-indonesian-title {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .text-indonesian {
+    margin-bottom: 12px;
+  }
+  /* <<<<------NOT FOUND----->>>>>> */
+  .hero.page-not-found {
+    height: calc(90vh - 77px);
+    margin-bottom: 10vh;
+    padding-top: 38px;
+  }
+  .image-banner-page-not-found {
+    position: relative;
+    top: auto;
+    width: 100%;
+    right: auto;
+    transform: unset;
+    margin-bottom: 10vh;
+  }
+  .wrapper-body .page-404 {
+    font-size: 140px;
+    margin-bottom: 0;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -734,6 +859,64 @@
 
   .modal-donate-us {
     max-width: 800px;
+  }
+
+  /* <<<<------DONATE----->>>>>> */
+  .hero.hero-donate {
+    height: auto;
+    margin-bottom: 100px;
+    padding-top: 38px;
+  }
+  .wrapper-hero.wrapper-donate-hero .hero-title-donate {
+    max-width: 470px;
+    line-height: 68px;
+    margin-bottom: 28px;
+  }
+  .img-hero-donate {
+    top: auto;
+    width: 80%;
+    position: relative;
+    margin-bottom: 38px;
+    transform: unset;
+  }
+  .wrapper-qrcode {
+    padding-left: 15px;
+  }
+  .wrapper-donate-hero {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+  }
+  .wrapper-qrcode .row .col-md-4:nth-child(1) {
+    margin-right: 40px;
+  }
+  .img-qr {
+    width: 100%;
+    margin-bottom: 18px;
+  }
+  .donate-indonesian-title {
+    font-size: 38px;
+    line-height: 48px;
+  }
+  .text-indonesian {
+    margin-bottom: 12px;
+  }
+  /* <<<<------NOT FOUND----->>>>>> */
+  .hero.page-not-found {
+    height: calc(90vh - 77px);
+    margin-bottom: 10vh;
+    padding-top: 38px;
+  }
+  .image-banner-page-not-found {
+    position: relative;
+    top: auto;
+    width: 100%;
+    right: auto;
+    transform: unset;
+    margin-bottom: 5vh;
+  }
+  .wrapper-body .page-404 {
+    font-size: 200px;
+    margin-bottom: 0;
   }
 }
 
