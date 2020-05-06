@@ -148,6 +148,9 @@ footer .copy-right {
   outline: none;
 }
 .modal-donate-us .close {
+  position: absolute;
+  top: -60px;
+  left: 0;
   float: left;
   font-size: 3.5rem;
   font-weight: 300;
