@@ -1,8 +1,6 @@
 .hero.hero-license {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin-top: 60px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -44,11 +42,10 @@
 }
 .img-hero-license {
   position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  right: 6%;
+  top: 0;
+  right: 0;
   z-index: -10;
-  width: 42%;
+  width: 60%;
 }
 
 .wrapp-license {

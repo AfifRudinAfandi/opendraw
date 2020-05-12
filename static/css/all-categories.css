@@ -1,8 +1,6 @@
 .hero.hero-category {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin-top: 60px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -88,7 +86,7 @@
 .hero-category-img {
   position: absolute;
   right: 6%;
-  top: 10vh;
+  top: 0;
   z-index: -10;
   width: 40%;
 }

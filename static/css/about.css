@@ -1,8 +1,6 @@
 .hero.hero-about {
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin-top: 60px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -44,11 +42,11 @@
 }
 .img-hero-about {
   position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
+  top: 0;
   right: 6%;
   z-index: -10;
   width: 42%;
+  max-width: 640px;
 }
 section.our-team {
   margin-bottom: 100px;

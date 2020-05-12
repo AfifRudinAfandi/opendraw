@@ -68,13 +68,37 @@
     line-height: 42px;
     margin-bottom: 28px;
   }
+  .recent-items {
+    box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+  }
+  .recent-items .body-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 24px;
+  }
+  .recent-items .body-item .item-title {
+    font-size: 18px;
+    line-height: 24px;
+  }
   .hero-home-img {
     position: relative;
     top: auto;
     width: 100%;
     right: auto;
   }
-
+  .header-item .item-image {
+    height: auto;
+  }
+  section.recent .container .row .col-md-3 {
+    width: 50%;
+  }
+  section.recent .container .row .col-md-3:nth-child(odd) {
+    padding-right: 6px;
+  }
+  section.recent .container .row .col-md-3:nth-child(even) {
+    padding-left: 6px;
+  }
   .group-input-email input::placeholder {
     font-size: 12px;
   }
@@ -141,8 +165,24 @@
     line-height: 42px;
     max-width: 200px;
   }
-  section.download {
-    margin-bottom: 240px;
+
+  section.download .container .row .col-md-3 {
+    width: 50%;
+  }
+
+  section.download .container .row .col-md-3:nth-child(odd) {
+    padding-right: 6px;
+  }
+  section.download .container .row .col-md-3:nth-child(even) {
+    padding-left: 6px;
+  }
+
+  .body-item-download {
+    padding: 20px 15px;
+  }
+  .header-item .item-image-download {
+    width: 100%;
+    height: auto;
   }
   .wrapper-connect {
     padding-left: 15px;
@@ -287,6 +327,29 @@
   .hero-main-title {
     margin-bottom: 28px;
   }
+  .body-item .item-desc {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  section.category {
+    margin-bottom: 100px;
+  }
+  section.category-backgrounds {
+    margin-bottom: 200px;
+  }
+  section.category .container .row .col-md-3 {
+    width: 50%;
+  }
+  section.category .container .row .col-md-3:nth-child(odd) {
+    padding-right: 6px;
+  }
+  section.category .container .row .col-md-3:nth-child(even) {
+    padding-left: 6px;
+  }
+  .body-item-download .item-title {
+    font-size: 18px;
+    line-height: 28px;
+  }
 
   /* <<<<------ITEM DOWNLOAD----->>>>>> */
   .download-item {
@@ -328,7 +391,10 @@
   }
 
   section.category.category-premium {
-    padding-top: 24px;
+    padding-top: 60px;
+  }
+  .category-premium {
+    margin-bottom: 240px !important;
   }
 
   /* <<<<------DONATE----->>>>>> */
